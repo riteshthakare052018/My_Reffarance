@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="17" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-22T16:42:25 IST" name="Suite" finished-at="2022-05-22T16:45:59 IST" duration-ms="213978">
+    <groups>
+    </groups>
+    <test started-at="2022-05-22T16:42:25 IST" name="Test" finished-at="2022-05-22T16:45:59 IST" duration-ms="213978">
+      <class name="dataDrivenTesting.DataProvider">
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:42:27 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:42:39 IST" duration-ms="12497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:42:39 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:42:47 IST" duration-ms="7761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:42:47 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:42:56 IST" duration-ms="8866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:42:56 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:43:09 IST" duration-ms="12979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:43:09 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:43:28 IST" duration-ms="18844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:43:28 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:43:44 IST" duration-ms="15828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:43:44 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:43:54 IST" duration-ms="10706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:43:54 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:44:05 IST" duration-ms="11186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:44:05 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:44:16 IST" duration-ms="10242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:44:16 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:44:25 IST" duration-ms="9572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:44:25 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:44:34 IST" duration-ms="8882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:44:34 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:44:43 IST" duration-ms="8583" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc12]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //*[@id="pass"]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'RIETESH', ip: '192.168.42.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@id="pass"]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'RIETESH', ip: '192.168.42.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at dataDrivenTesting.DataProvider.testcases(DataProvider.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:44:43 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:44:53 IST" duration-ms="10320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:44:53 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:45:02 IST" duration-ms="9314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:45:02 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:45:16 IST" duration-ms="13441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:45:16 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:45:29 IST" duration-ms="13116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:45:29 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:45:40 IST" duration-ms="10898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:45:40 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:45:51 IST" duration-ms="10783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:45:51 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:45:53 IST" duration-ms="2245" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rieteshthakre99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc19]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'RIETESH', ip: '192.168.42.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a535028d3b56701c6675183948080a4, get {url=https://www.facebook.com/login/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\rites\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56746/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a535028d3b56701c6675183948080a4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'RIETESH', ip: '192.168.42.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a535028d3b56701c6675183948080a4, get {url=https://www.facebook.com/login/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\rites\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56746/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a535028d3b56701c6675183948080a4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:327)
+at dataDrivenTesting.DataProvider.testcases(DataProvider.java:18)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+        <test-method signature="testcases(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataProvider@399f45b1]" started-at="2022-05-22T16:45:53 IST" name="testcases" data-provider="testdata" finished-at="2022-05-22T16:45:59 IST" duration-ms="6455" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+at dataDrivenTesting.DataProvider.testcases(DataProvider.java:19)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+      </class> <!-- dataDrivenTesting.DataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

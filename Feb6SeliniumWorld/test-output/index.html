@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\rites\eclipse-workspace\Feb6SeliniumWorld\DDTtestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 3 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(null, null)">testcases(null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc12)">testcases(rieteshthakre99@gmail.com, abc12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc19)">testcases(rieteshthakre99@gmail.com, abc19)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc18)">testcases(rieteshthakre99@gmail.com, abc18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc7)">testcases(rieteshthakre99@gmail.com, abc7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc10)">testcases(rieteshthakre99@gmail.com, abc10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc4)">testcases(rieteshthakre99@gmail.com, abc4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc1)">testcases(rieteshthakre99@gmail.com, abc1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc14)">testcases(rieteshthakre99@gmail.com, abc14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc3)">testcases(rieteshthakre99@gmail.com, abc3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc16)">testcases(rieteshthakre99@gmail.com, abc16)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc2)">testcases(rieteshthakre99@gmail.com, abc2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc15)">testcases(rieteshthakre99@gmail.com, abc15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc13)">testcases(rieteshthakre99@gmail.com, abc13)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc8)">testcases(rieteshthakre99@gmail.com, abc8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc5)">testcases(rieteshthakre99@gmail.com, abc5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc17)">testcases(rieteshthakre99@gmail.com, abc17)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc9)">testcases(rieteshthakre99@gmail.com, abc9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc6)">testcases(rieteshthakre99@gmail.com, abc6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dataDrivenTesting.DataProvider" class="method navigator-link" hash-for-method="testcases(rieteshthakre99@gmail.com, abc11)">testcases(rieteshthakre99@gmail.com, abc11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">dataDrivenTesting.DataProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(null, null)">
+                  </a> <!-- testcases(null, null) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(null, null)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+	at dataDrivenTesting.DataProvider.testcases(DataProvider.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc12)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc12) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc12)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@id=&quot;pass&quot;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;RIETESH&apos;, ip: &apos;192.168.42.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at dataDrivenTesting.DataProvider.testcases(DataProvider.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc19)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc19) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc19)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=101.0.4951.67)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;RIETESH&apos;, ip: &apos;192.168.42.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a535028d3b56701c6675183948080a4, get {url=https://www.facebook.com/login/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\rites\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56746/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a535028d3b56701c6675183948080a4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:327)
+	at dataDrivenTesting.DataProvider.testcases(DataProvider.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dataDrivenTesting.DataProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc18)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc18) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc7)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc7) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc10)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc10) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc4)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc4) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc1)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc1) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc14)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc14) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc14)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc3)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc3) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc16)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc16) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc16)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc2)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc2) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc15)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc15) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc13)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc13) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc13)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc8)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc8) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc5)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc5) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc17)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc17) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc17)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc9)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc9) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc6)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc6) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcases(rieteshthakre99@gmail.com, abc11)">
+                  </a> <!-- testcases(rieteshthakre99@gmail.com, abc11) -->
+                  <span class="method-name">testcases</span>
+                  <span class="parameters">(rieteshthakre99@gmail.com, abc11)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rites\eclipse-workspace\Feb6SeliniumWorld\DDTtestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dataDrivenTesting.HardCodeData&quot;/&gt;
+      &lt;class name=&quot;dataDrivenTesting.DataProvider&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcases')
+data.setCell(0, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(0, 3, 18844);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcases')
+data.setCell(1, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(1, 3, 15828);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcases')
+data.setCell(2, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(2, 3, 13441);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcases')
+data.setCell(3, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(3, 3, 13116);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testcases')
+data.setCell(4, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(4, 3, 12979);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcases')
+data.setCell(5, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(5, 3, 12497);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testcases')
+data.setCell(6, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(6, 3, 11186);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testcases')
+data.setCell(7, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(7, 3, 10898);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testcases')
+data.setCell(8, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(8, 3, 10783);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testcases')
+data.setCell(9, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(9, 3, 10706);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testcases')
+data.setCell(10, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(10, 3, 10320);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testcases')
+data.setCell(11, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(11, 3, 10242);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testcases')
+data.setCell(12, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(12, 3, 9572);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testcases')
+data.setCell(13, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(13, 3, 9314);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testcases')
+data.setCell(14, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(14, 3, 8882);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testcases')
+data.setCell(15, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(15, 3, 8866);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testcases')
+data.setCell(16, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(16, 3, 8583);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testcases')
+data.setCell(17, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(17, 3, 7761);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testcases')
+data.setCell(18, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(18, 3, 6455);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testcases')
+data.setCell(19, 2, 'dataDrivenTesting.DataProvider')
+data.setCell(19, 3, 2245);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dataDrivenTesting.DataProvider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc2)</span>
+                <span class="method-start">12502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc3)</span>
+                <span class="method-start">20265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc4)</span>
+                <span class="method-start">29133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc5)</span>
+                <span class="method-start">42115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc6)</span>
+                <span class="method-start">60961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc7)</span>
+                <span class="method-start">76791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc8)</span>
+                <span class="method-start">87499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc9)</span>
+                <span class="method-start">98687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc10)</span>
+                <span class="method-start">108933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc11)</span>
+                <span class="method-start">118507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc12)</span>
+                <span class="method-start">127391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc13)</span>
+                <span class="method-start">136036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc14)</span>
+                <span class="method-start">146357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc15)</span>
+                <span class="method-start">155673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc16)</span>
+                <span class="method-start">169117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc17)</span>
+                <span class="method-start">182235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc18)</span>
+                <span class="method-start">193135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcases(rieteshthakre99@gmail.com, abc19)</span>
+                <span class="method-start">203919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcases(null, null)</span>
+                <span class="method-start">206167 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
